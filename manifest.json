@@ -1,0 +1,38 @@
+{
+    "name": "Notion Watch",
+    "description": "Add a sync button and a watcher to Notion to ping your endpoint as you make changes.",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.notion.so/*"
+            ],
+            "js": [
+                "watch.js"
+            ],
+            "css": [
+                "watch.css"
+            ]
+        }
+    ],
+    "permissions": [
+        "storage",
+        "activeTab"
+    ],
+    "action": {
+        "default_icon": {
+            "16": "/images/notion_watch_16.png",
+            "32": "/images/notion_watch_32.png",
+            "48": "/images/notion_watch_48.png",
+            "128": "/images/notion_watch_128.png"
+        },
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "/images/notion_watch_16.png",
+        "32": "/images/notion_watch_32.png",
+        "48": "/images/notion_watch_48.png",
+        "128": "/images/notion_watch_128.png"
+    }
+}

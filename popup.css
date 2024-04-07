@@ -1,0 +1,93 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    font-family: Nunito, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+    padding: 1rem;
+    width: 320px;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    background: black;
+    border: none;
+    color: white;
+    border-radius: 0.2rem;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+input[type=url] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.2rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: black;
+}
+
+.block {
+    display: block;
+}
+
+.relative {
+    position: relative;
+}
+
+.top-px {
+    top: 1px;
+}
+
+.mt-1 {
+    margin-top: 0.25rem;
+}
+
+.mb-1 {
+    margin-bottom: 0.25rem;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem;
+}
+
+.mb-3 {
+    margin-bottom: 0.75rem;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.mx-px {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.text-base {
+    font-size: 1rem;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+.text-gray-400 {
+    color: #9ca3af;
+}

@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="popup.css">
+    </head>
+    <body>
+        <h1 class="text-xl font-bold mb-4">Notion Watch</h1>
+
+        <div class="mb-4">
+            <label for="endpoint" class="block mb-1 text-base">Endpoint</label>
+
+            <input type="url" name="endpoint" id="endpoint" placeholder="e.g. https://example.com/endpoint">
+        </div>
+
+        <div>
+            <label class="text-base">
+                <input type="checkbox" name="enableAutoSync" id="enableAutoSync" class="relative top-px">
+                Auto Sync
+            </label>
+
+            <p class="text-sm text-gray-400 mt-1">Watch changes to the page and automatically ping the endpoint.</p>
+        </div>
+
+        <script src="popup.js"></script>
+    </body>
+</html>

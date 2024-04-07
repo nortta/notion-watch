@@ -1,0 +1,31 @@
+.nortta-button {
+    font-size: 14px;
+    background: transparent;
+    border: none;
+    padding: 0 8px;
+    border-radius: 3px;
+    height: 28px;
+    cursor: pointer !important;
+    margin-left: 4px;
+    transition: background 20ms ease-in 0s;
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
+    white-space: nowrap;
+    line-height: 1.2;
+    color: rgb(55, 53, 47);
+    text-decoration: none;
+}
+
+.nortta-button.nortta-disabled {
+    color: rgba(55, 53, 47, 0.5);
+    pointer-events: none;
+}
+
+.nortta-button:hover {
+    background: rgba(55, 53, 47, 0.08);
+}
+
+.nortta-button-sync+div {
+    margin-left: 0 !important;
+}
