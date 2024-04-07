@@ -12,3 +12,6 @@ Notion Watch adds a watcher to Notion in your web browser and pings your configu
 
 The extension also adds a Sync button to Notion's UI. You may optionally disable the watcher and rely on the button to trigger pings manually.
 
+## License
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
